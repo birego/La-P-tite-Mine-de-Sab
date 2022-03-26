@@ -30,6 +30,7 @@ a{
     text-decoration: none; /**retire le soulignement (les liens)**/
     color: #f0c77a;
 }
+
                         /** NAVBAR **/
 header nav{  /**Je précise Header devant nav parcque si j'ajoute une autre barre denavigation dans le site, ça permettre de les distinguer.**/
     display: flex; /**Pour aligner tous les liens**/
@@ -60,7 +61,7 @@ header{
                         /**IMAGE PRINCIPALE**/
 #imagePrincipale{
     padding-top: 60px; /**Pour faire descendre tout le reste (texte)**/
-    background: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.18169-9/fr/cp0/e15/q65/12074591_1632120933705073_6193410349010483012_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=dd9801&efg=eyJpIjoidCJ9&_nc_ohc=Y26Zgo8D73AAX_uqqyC&_nc_oc=AQl7HNVGFJYo2Rpi0upVwh4ew1DBH7mittRHpkwUVDCY0gZtRFzmfQcwoLspTJQASmQ&_nc_ht=scontent-cdg2-1.xx&oh=9601750c74d46cc7cc5d4bac2a039e83&oe=61BA039A") 
+    background: url("../Assets/background.jpg") 
     no-repeat fixed 50% 50%;
     /**J'insère l'image principale avec le background.**/
     /** fixed permet que l'image ne bouge plus**/
